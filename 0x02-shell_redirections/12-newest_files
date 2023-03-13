@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -mindepth 1 -type f -exec ls -t {} + | head -n 10
+ls -1pt |head -n 10
